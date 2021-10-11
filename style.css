@@ -18,3 +18,7 @@
 .descriptive-text {
     color: red;
 }
+
+.listo {
+    font-weight: bold; color: blueviolet;
+}
