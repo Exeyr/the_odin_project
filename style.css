@@ -26,3 +26,15 @@
 .GFG {
    color: gold; background-color: gold; width: 50px;
 }
+
+
+a {
+    padding: 15px;
+    background-color: red; 
+    text-decoration: none;       
+}
+
+a:hover {
+    background-color: darkred;
+    transition: 500ms ease;
+}
