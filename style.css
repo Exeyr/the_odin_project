@@ -5,6 +5,9 @@
 
 .list {
     font-family: Arial, Helvetica, sans-serif; color:pink;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .headline {
@@ -31,10 +34,12 @@
 a {
     padding: 15px;
     background-color: red; 
-    text-decoration: none;       
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 400px;     
 }
 
 a:hover {
     background-color: darkred;
-    transition: 500ms ease;
 }
