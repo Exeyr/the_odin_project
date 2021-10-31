@@ -1,12 +1,41 @@
 .body {
     color: white; background-color: black; text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 600px;
+}
+
+.all-lists {
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
+}
+
+.lists1 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    flex: 1 1 auto;
 }
 
 .list {
     font-family: Arial, Helvetica, sans-serif; color:pink;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .headline {
@@ -24,6 +53,7 @@
 .listo {
     font-weight: bold; color: blueviolet;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .GFG {
@@ -37,7 +67,8 @@ a {
     text-decoration: none;
     display: flex;
     align-items: center;
-    width: 400px;     
+    width: 400px;  
+    color: aqua;   
 }
 
 a:hover {
