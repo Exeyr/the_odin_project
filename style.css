@@ -35,7 +35,7 @@ img {
     align-items: center;
     flex-direction: column;
     gap: 8px;
-    text-align: justify;
+    text-align: center;
 }
 
 ul {
