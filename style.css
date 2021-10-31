@@ -72,7 +72,8 @@ a {
     display: flex;
     align-items: center;
     width: 400px;  
-    color: aqua;   
+    color: aqua;  
+    border-radius: 8px; 
 }
 
 a:hover {
